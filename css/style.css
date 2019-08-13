@@ -24,7 +24,7 @@ a:hover {
 
 .btn-sa:hover {
 	color: #fff;
-	background-color: rgba(239, 79, 83, 1);
+	background-color: rgb(239, 79, 83);
 }
 
 .btn-sa-secondary {
@@ -52,6 +52,9 @@ a:hover {
 	text-shadow: 0 0 3px #000;
 }
 
+#mountains	 {
+	width: 100%;
+}
 
 /* Navigation bar */
 .navbar .logo-text {
@@ -94,7 +97,7 @@ a:hover {
 }
 
 /* Removing default style */ 
-#tito-button button { border:none; background: none; color: #EF4F53; font-weight: bold; } 
+#tito-button button { padding:0; border:none; background: none; color: #EF4F53; font-weight: bold; } 
 #tito-button:hover button { color: #fff; } 
 
 
